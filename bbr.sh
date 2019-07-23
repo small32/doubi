@@ -217,7 +217,6 @@ stopbbr(){
 }
 # 查看BBR状态
 statusbbr(){
-	check_deb_off
 	bbrstatus
 	echo -e "${Error} BBR 未开启 !"
 }
